@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ],
+    // ["module-resolver", {
+    //   "root": ["."],
+    //   "alias": {
+    //     "@Component": "src/component",
+    //     "@Helpers": "src/helpers",
+    //     "@Page": "src/page",
+    //     "@Redux": "src/redux"
+    //   }
+    // }]
+  ]
+}
